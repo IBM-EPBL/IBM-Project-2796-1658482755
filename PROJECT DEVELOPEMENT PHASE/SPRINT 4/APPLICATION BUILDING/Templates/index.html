@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Sign language Prediction</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="static/css/Banner-Heading-Image.css">
+    <link rel="stylesheet" href="static/css/Navbar-Centered-Brand.css">
+    <link rel="stylesheet" href="static/css/styles.css">
+</head>
+
+<body style="background: #012938;">
+    <nav class="navbar navbar-light navbar-expand-md py-3">
+        <div class="container">
+            <div></div><a class="navbar-brand d-flex align-items-center" ><span
+                    class="bs-icon-sm bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center me-2 bs-icon"><i
+                        class="fas fa-flask"></i></span><h4 style="color: #d8cfcf; font-style: oblique; text-align: center;"><strong>Real-Time Communication
+                    System Powered By AI&nbsp;For Specially Abled</strong></h4></a>
+            <div></div>
+        </div>
+    </nav>
+    <section>
+        <div class="d-flex flex-column justify-content-center align-items-center">
+            <div class="d-flex flex-column justify-content-center align-items-center" id="div-video-feed"
+                style="width: 500px;height: 400px;margin: 10px;min-height: 480px;min-width: 640px;border-radius: 10px;border: 5px groove #a7a59c ;">
+                <img src="{{ url_for('video_feed') }}" style="width: 100%;height: 100%;color: rgb(255,255,255);text-align: center;font-size: 20px;"
+                    alt="Camera Access Not Provided!">
+            </div>
+        </div>
+        <div class="d-flex flex-column justify-content-center align-items-center">
+            <div class="d-flex flex-column justify-content-center align-items-center" id="div-video-feed">
+                
+                <button type="button" style="background-color:rgb(89, 173, 251); text-align: center;color: #140c0c; font-size: 20px;padding: 5px; border-radius: 2px groove #a7a59c ;">ABOUT</button>
+            </div>
+               
+                
+            </div>
+        </div>
+        
+       
+    </section>
+        
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
